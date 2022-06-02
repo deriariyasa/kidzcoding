@@ -247,19 +247,19 @@ nav {
   width: 25%;
 }
 
-.lesson-icon {
+.benefit-icon {
   position: relative;
 }
 
-.lesson-icon h3 {
+.benefit-icon h3 {
   color: #464646;
 }
 
-.lesson-icon {
+.benefit-icon {
   transition: all 0.8s ease-in;
 }
 
-.lesson-icon:hover {
+.benefit-icon:hover {
   transform: rotate(360deg);
 }
 
@@ -426,4 +426,170 @@ footer .fa {
 .foot-footer {
   padding: 20px 20px 20px 20px;
   background-color: #464646;
+}
+
+/*Layar Tablet*/
+@media screen and (max-device-width: 1024px) {
+  #About {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .box-about {
+    text-align: center;
+  }
+
+  .box-about h1 {
+    text-align: center;
+  }
+
+  .box-about p {
+    text-align: justify;
+  }
+
+  .featured-image {
+    width: 100%;
+  }
+
+  .pelajaran {
+    flex-wrap: wrap;
+  }
+
+  .heading h2 {
+    text-align: center;
+  }
+
+  .img-btn {
+    width: 100%;
+  }
+
+  .benefit {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  #profile {
+    flex-wrap: wrap;
+  }
+
+  .gambar {
+    width: 50%;
+  }
+
+  .box-profile {
+    text-align: center;
+  }
+
+  .form-in {
+    width: 90%;
+    font-size: 18px;
+  }
+  .contact-submit {
+    width: 90%;
+    font-size: 18px;
+  }
+  .sub-section {
+    font-size: 18px;
+  }
+  .cs-img,
+  .cs-txt {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+}
+
+/*Layar Samartphone*/
+@media screen and (max-width: 670px) {
+  ul {
+    display: none;
+  }
+
+  #About {
+    flex-wrap: wrap;
+  }
+
+  .box-about p,
+  .box-profile p {
+    font-size: 14px;
+  }
+
+  .box-about h1,
+  .heading h1,
+  .head h1,
+  .box-profile h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .jumbotron h1 {
+    font-size: 25px;
+  }
+
+  .jumbotron p {
+    font-size: 16px;
+  }
+
+  .box-profile h2 {
+    font-size: 16px;
+  }
+
+  .featured-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pelajaran {
+    flex-wrap: wrap;
+  }
+
+  .img-btn {
+    width: 100%;
+  }
+
+  .benefit {
+    width: 100%;
+  }
+
+  #profile {
+    flex-wrap: wrap;
+  }
+
+  .gambar {
+    width: 50%;
+  }
+
+  .box-profile {
+    text-align: center;
+  }
+
+  .cf {
+    width: 100%;
+  }
+  .select-topic {
+    width: 100%;
+    font-size: 18px;
+  }
+  .form-in {
+    width: 100%;
+    font-size: 18px;
+  }
+  .contact-submit {
+    width: 100%;
+    font-size: 18px;
+  }
+  .sub-section {
+    font-size: 18px;
+  }
+  .cs-img,
+  .cs-txt {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
