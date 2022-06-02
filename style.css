@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.clear {
+  clear: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #464646;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile-image {
+  width: 200px;
+}
+
+.logo {
+  float: left;
+  font-size: 36px;
+  padding: 7px 53px 30px 10px;
+  cursor: pointer;
+  color: #00b5ba;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  height: 554px;
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.5) 0%, rgba(166, 230, 255, 0.5) 35%, rgba(0, 212, 255, 0.5) 100%), url(kidcode.png);
+  object-position: center;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron h1 {
+  margin-top: 50px;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+nav {
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.btn-coba {
+  width: 242px;
+  line-height: 12px;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  color: white;
+  background-color: #5672c4;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-coba:hover {
+  background-color: #6380d6;
+}
+
+.btn-coba:active {
+  position: relative;
+  top: 7px;
+}
+
+#content {
+  background: white;
+}
+
+#About {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+}
+
+.featured-image {
+  object-fit: cover;
+}
+
+.box-about {
+  flex-grow: 1;
+  margin: 10px 30px 10px 30px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.box-about h1 {
+  color: #464646;
+  font-size: 45px;
+  letter-spacing: 5px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.box-about p {
+  font-size: 24px;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #464646;
+}
+
+.heading h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+
+.pelajaran {
+  display: flex;
+  flex-grow: 1;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.box {
+  flex-grow: 1;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid #464646;
+  color: #5672c4;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.box h2 {
+  color: #5672c4;
+}
+
+.box p {
+  color: #464646;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.img-btn {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.6s ease;
+}
+
+.img-btn:hover {
+  opacity: 0.5;
+}
+
+.btn-more {
+  width: 242px;
+  line-height: 12px;
+  padding: 15px 40px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  color: white;
+  background-color: #5672c4;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-more:hover {
+  background-color: #6380d6;
+}
+
+.btn-more:active {
+  position: relative;
+  top: 7px;
+}
+
+#manfaat {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffded1;
+  text-align: center;
+}
+
+/*.head {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #5672c4;
+  font-size: 40px;
+  text-align: center;
+}*/
+
+.head {
+  padding-top: 3px;
+  padding-bottom: 50px;
+  color: #464646;
+  font-size: 40px;
+  text-align: center;
+}
+
+.head h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.benefit {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon h3 {
+  color: #464646;
+}
+
+.lesson-icon {
+  transition: all 0.8s ease-in;
+}
+
+.lesson-icon:hover {
+  transform: rotate(360deg);
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #464646;
+}
+
+#profile {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  background-color: #5672c4;
+}
+
+.box-profile {
+  flex-grow: 1;
+  margin: 20px 30px 10px 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.box-profile h1 {
+  color: white;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin: 1px 1px 1px 1px;
+}
+
+.box-profile h2 {
+  color: gold;
+  letter-spacing: 3px;
+  margin: 1px 1px 1px 1px;
+}
+
+.box-profile p {
+  font-size: 25px;
+}
+
+/*Hubungi Kami*/
+
+.clear {
+  clear: left;
+}
+
+#contact-form {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: white;
+  color: #464646;
+}
+
+.container-cf {
+  padding: 30px;
+}
+
+.cf {
+  float: left;
+  width: 50%;
+}
+.section-title {
+  border-bottom: 2px solid #153647;
+  font-size: 50px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.sub-section {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: auto;
+}
+
+.form-in {
+  width: 75%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid grey;
+}
+
+.contact-submit {
+  padding: 15px;
+  margin-top: 20px;
+  width: 75%;
+  background-color: #6380d6;
+  color: #e5edf1;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 7px #5672c4;
+}
+
+.select-subject {
+  width: 75%;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid rgb(217, 230, 243);
+  margin-bottom: 10px;
+}
+
+.red-asterisk {
+  color: red;
+}
+
+.contact-submit:hover {
+  background-color: #5672c4;
+  cursor: pointer;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.cs-img,
+.cs-txt {
+  float: right;
+  margin-top: 40px;
+  margin-right: 90px;
+  width: 70%;
+  height: 50%;
+  text-align: center;
+  font-size: 20px;
+  color: #464646;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.foot-head {
+  background-color: #6b6b6b;
+  padding: 20px;
+}
+
+footer .fa {
+  padding: 0;
+  font-size: 20px;
+  width: 30px;
+  position: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #464646;
+  background: white;
+  line-height: 2;
+  border-radius: 10px;
+}
+
+.foot-footer {
+  padding: 20px 20px 20px 20px;
+  background-color: #464646;
+}
